@@ -1,4 +1,5 @@
 dependencies:
+  body-parser: 1.0.2
   express: 4.16.3
   sqlite3: 4.0.0
   typescript: 3.3.1
@@ -16,6 +17,14 @@ packages:
     dev: false
     resolution:
       integrity: sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
+  /body-parser/1.0.2:
+    dependencies:
+      qs: 0.6.6
+      raw-body: 1.1.7
+      type-is: 1.1.0
+    dev: false
+    resolution:
+      integrity: sha1-NGFHmjJ4/gD8rr7DMUu1T8T3tHw=
   /body-parser/1.18.2:
     dependencies:
       bytes: 3.0.0
@@ -33,6 +42,10 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha1-h2eKGdhLR9hZuDGZvVm84iKxBFQ=
+  /bytes/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-NWnt6Lo0MV+rmcPpLLBMciDeH6g=
   /bytes/3.0.0:
     dev: false
     engines:
@@ -223,6 +236,10 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha512-lc/aahn+t4/SWV/qcmumYjymLsWfN3ELhpmVuUFjgsORruuZPVSwAQryq+HHGvO/SI2KVX26bx+En+zhM8g8hQ==
+  /mime/1.2.11:
+    dev: false
+    resolution:
+      integrity: sha1-WCA+7Ybjpe8XrtK32evUfwpg3RA=
   /mime/1.4.1:
     dev: false
     hasBin: true
@@ -269,6 +286,10 @@ packages:
       node: '>= 0.10'
     resolution:
       integrity: sha512-jQTChiCJteusULxjBp8+jftSQE5Obdl3k4cnmLA6WXtK6XFuWRnvVL7aCiBqaLPM8c4ph0S4tKna8XvmIwEnXQ==
+  /qs/0.6.6:
+    dev: false
+    resolution:
+      integrity: sha1-bgFQmP9RlouKPIGQAdXyyJvEsQc=
   /qs/6.5.1:
     dev: false
     engines:
@@ -281,6 +302,15 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha1-9JvmtIeJTdxA3MlKMi9hEJLgDV4=
+  /raw-body/1.1.7:
+    dependencies:
+      bytes: 1.0.0
+      string_decoder: 0.10.31
+    dev: false
+    engines:
+      node: '>= 0.8.0'
+    resolution:
+      integrity: sha1-HQJ8K/oRasxmI7yo8AAWVyqH1CU=
   /raw-body/2.3.2:
     dependencies:
       bytes: 3.0.0
@@ -350,6 +380,16 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha512-zhSCtt8v2NDrRlPQpCNtw/heZLtfUDqxBM1udqikb/Hbk52LK4nQSwr10u77iopCW5LsyHpuXS0GnEc48mLeew==
+  /string_decoder/0.10.31:
+    dev: false
+    resolution:
+      integrity: sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ=
+  /type-is/1.1.0:
+    dependencies:
+      mime: 1.2.11
+    dev: false
+    resolution:
+      integrity: sha1-0CReyLJnZmjVndDPMlUGBnalfbY=
   /type-is/1.6.16:
     dependencies:
       media-typer: 0.3.0
@@ -388,6 +428,7 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
+  body-parser: ~1.0.1
   express: ^4.16.3
   sqlite3: ^4.0.0
   typescript: ^3.3.1
